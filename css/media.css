@@ -50,4 +50,20 @@
   .banner-block {
     height: initial;
   }
+  .banner-block-content {
+    padding: 80px 0;
+  }
+  .banner-block-subtitle {
+    font-size: 21px;
+  }
+  .banner-block-title {
+    font-size: 48px;
+    line-height: 52px;
+    margin-bottom: 15px;
+  }
+  .banner-block-text {
+    font-size: 16px;
+    line-height: 34px;
+    margin-bottom: 30px;
+  }
 }
