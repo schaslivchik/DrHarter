@@ -139,3 +139,6 @@ header {
   max-width: 500px;
   margin-bottom: 46px;
 }
+.logo img {
+  width:100%;
+}
