@@ -1,0 +1,47 @@
+@media all and (min-width: 1200px) {
+  .main-menu-trigger {
+    height: 0;
+    width: 0;
+    margin: 0;
+  }
+}
+@media all and (max-width: 1199px) {
+  .main-menu {
+    order: 1;
+    margin: 0 20px 0 0;
+    display: none;
+  }
+  .logo {
+    order: 2;
+  }
+  .main-menu-trigger {
+    width: 30px;
+    height: 30px;
+    margin: 0px 40px 0 0;
+  }
+}
+@media all and (max-width: 767px) {
+  .wrap-header-menu {
+    position: relative;
+    padding: 20px;
+  }
+  .logo {
+    margin-bottom: 20px;
+    width: 100%;
+    order: 1;
+  }
+  .main-menu-trigger {
+    order: 2;
+  }
+  .menu-block {
+    flex-wrap: wrap;
+  }
+  .block-login-cart {
+    position: absolute;
+    right: 15px;
+    bottom: 15px
+  }
+  .logo img {
+    max-width: 100%;
+  }
+}

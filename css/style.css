@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+a {
+  color: #343f48;
+}
+a:hover {
+  color: #11161a
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #444444;
+}
+header {
+  border-bottom: 1px solid #efefef;
+}
+.btn-cta-banner {
+  padding: 12px 40px;
+}
+.btn-primary {
+  background: #4f5b65;
+  border: 1px solid #4f5b65;
+}
+.btn-primary:hover {
+  background: #444444;
+  border: 1px solid #444444;
+}
+.wrap-header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.menu-block {
+  display: flex;
+  align-items: center;
+}
+.main-menu-item {
+  position: relative;
+  font-size: 19px;
+  transition: 0.3s;
+  border-bottom: 2px solid transparent;
+}
+.main-menu-item:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  bottom: -2px;
+  right: 0;
+  transition: 0.3s;
+}
+.main-menu-item:hover:before {
+  width: 0;
+  left: 0;
+}
+.main-menu-trigger {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin: 0px 40px 0 0;
+}
+.main-menu-trigger:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  top: 3px;
+  left: 0;
+  background: #444444;
+}
+.main-menu-trigger:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 3px;
+  left: 0;
+  background: #444444;
+}
+.burger-ico {
+  width: 100%;
+  height: 2px;
+  display: block;
+  background: #444444;
+}
+.main-menu-item:hover {
+  border-bottom: 2px solid #c4b7a4;
+  text-decoration: none;
+}
+.main-menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+.main-menu {
+  margin: 0 0 0 90px;
+}
+.btn-header-login img, .btn-header-cart img {
+  height: 30px;
+}
+.block-login-cart {
+  display: flex;
+}
+.btn-header-cart.active-cart {
+  position: relative;
+}
+.active-cart:before {
+  content: '';
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  background: #c4b7a4;
+  border-radius: 30px;
+  border: 2px solid #ffffff;
+  top: 4px;
+  right: 4px;
+}
+.block-login {
+  margin-right: 20px;
+}
+.banner-block {
+  background: url(../images/bg_banner.png) bottom center no-repeat;
+  height: 75vh;
+}
+.banner-block-subtitle {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.banner-block-title {
+  font-size: 72px;
+  font-weight: 700;
+  margin-left: -5px;
+  line-height: 72px;
+  margin-bottom: 25px;
+}
+.banner-block-text {
+  font-size: 18px;
+  line-height: 36px;
+  max-width: 500px;
+  margin-bottom: 46px;
+}
