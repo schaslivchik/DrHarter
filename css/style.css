@@ -270,4 +270,6 @@ margin: 40px 0;
 .scroll-hidden {
   overflow: hidden;
   height: 100vh;
+  position: fixed;
+  width: 100%;
 }
