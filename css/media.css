@@ -44,5 +44,10 @@
     right: 15px;
     bottom: 15px
   }
-
+  .main-menu.active-menu {
+    height: 100vh;
+  }
+  .banner-block {
+    height: initial;
+  }
 }
