@@ -142,6 +142,7 @@ header {
 }
 .logo img {
   width:100%;
+  max-width: 300px;
 }
 .main-menu.active-menu {
   display: flex;
