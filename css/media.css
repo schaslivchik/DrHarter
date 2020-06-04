@@ -24,6 +24,9 @@
   .img-real-bottom {
     right: -10px;
   }
+  .store-block {
+    height: 380px;
+  }
 }
 @media all and (max-width: 991px) {
   .title-new-product {
@@ -37,6 +40,9 @@
   .product-description {
     padding: 20px 40px;
     align-content: flex-start;
+  }
+  .store-block-name {
+    font-size: 30px;
   }
 }
 @media all and (max-width: 767px) {
@@ -102,5 +108,9 @@
   }
   .img-bottom-right,.img-top-left {
     opacity: 0.3;
+  }
+  .store-block {
+    width: 100%;
+    height: 280px;
   }
 }
