@@ -311,8 +311,6 @@ margin-bottom: 10px;
   font-weight: 700;
   width: 100%;
 }
-
-
 .store-block:hover .arrow-btn {
   width: 40px;
 }
@@ -382,4 +380,21 @@ margin-bottom: 10px;
 }
 .store-block-img-btn:hover img {
   transform: scale(1.1);
+}
+footer {
+  background: #e9e3da;
+  color: #444444;
+  padding: 40px 0;
+}
+.title-footer-col {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.title-footer-col-list {
+  padding: 0;
+  list-style-type: none;
+}
+.title-footer-col-list-item:not(:last-child) {
+  margin-bottom: 20px;
 }
