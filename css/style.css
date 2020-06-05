@@ -5,6 +5,17 @@ color: #343f48;
 a:hover {
 color: #11161a
 }
+.form-control {
+  padding: 12px;
+  border: 1px solid #ffffff;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #cabdaa;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(195, 167, 124, 0.25);
+}
 body {
 font-family: 'Montserrat', sans-serif;
 color: #444444;
@@ -385,16 +396,34 @@ footer {
   background: #e9e3da;
   color: #444444;
   padding: 40px 0;
+  font-size: 14px;
+  line-height: 24px;
 }
 .title-footer-col {
+  position: relative;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
+  display: inline-block;
 }
 .title-footer-col-list {
   padding: 0;
   list-style-type: none;
 }
 .title-footer-col-list-item:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+.title-footer-col:before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #444444;
+  bottom: -5px;
+}
+.position-subscribe-input {
+  margin-bottom: 30px;
+}
+.btn-subscribe {
+  min-width: 50px;
 }
